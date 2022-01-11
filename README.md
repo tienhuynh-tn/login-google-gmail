@@ -4,9 +4,9 @@
 - [Description](#description)
 - [Technologies](#technologies)
 - [Useful Resources](#useful-resources)
-  - Useful resources of the project
-  - Useful resources for using libraries
-  - Read more
+  - [Useful resources of the project](#useful-resources-of-the-project)
+  - [Useful resources for using libraries](#useful-resources-for-using-libraries)
+  - [Read more](#read-more)
 - [How Can Get Started](#how-can-get-started)
 - [References](#references)
 - [License & Copyright](#license--copyright)
@@ -36,7 +36,7 @@
 ### Read more
 - [Using OAuth 2.0 to Access Google APIs](https://developers.google.com/identity/protocols/oauth2)
 - [OpenID Connect](https://developers.google.com/identity/protocols/oauth2/openid-connect)
-- Other useful resources, please check [References](#references)
+- Other useful resources, please check out 👉 [References](#references)
 
 ## How Can Get Started
 
