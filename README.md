@@ -11,7 +11,18 @@
 ## Description
 - Demo and Explain How To Login with Gmail of Google in Java Web Application.
 
+## Basic Knowledge Required
+- Concept of OOP in Java
+- Basic knowledge in java web application using JSP and servlet
+
 ## Technologies
+- NetBeans 8.2
+- J2EE, JSP, Servlet
+- Apache Tomcat 8.0.27
+- Apache HttpComponents
+- Google JSON
+- Oauth 2.0
+- Google API
 
 ## Useful Resources
 
