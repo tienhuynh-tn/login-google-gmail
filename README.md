@@ -31,6 +31,12 @@
 
 ### Useful resources of the project
 
+#| Resource Name | Description
+-| ------------- | -----------
+1| [LoginGoogleGmail](https://github.com/tienhuynh-tn/login-google-gmail/tree/main/LoginGoogleGmail) | Project Folder
+2| [src](https://github.com/tienhuynh-tn/login-google-gmail/tree/main/LoginGoogleGmail/src) | Source code folder
+3| [web](https://github.com/tienhuynh-tn/login-google-gmail/tree/main/LoginGoogleGmail/web) | Includes [META-INF](https://github.com/tienhuynh-tn/login-google-gmail/tree/main/LoginGoogleGmail/web/META-INF) and [WEB-INF](https://github.com/tienhuynh-tn/login-google-gmail/tree/main/LoginGoogleGmail/web/WEB-INF) folder, html and jsp file
+
 ### Useful resources for using libraries
 
 ### Read more
