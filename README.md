@@ -12,6 +12,12 @@
     - [What is OAuth 2.0?](#what-is-oauth-20)
     - [Some basic concepts in OAuth 2.0](#some-basic-concepts-in-oauth-20)
     - [How it works?](#how-it-works)
+  - [Apply OAuth 2.0 in J2EE Application](#apply-oauth-20-in-j2ee-application)
+    - [Prepare for project in Google Cloud Platform](#prepare-for-project-in-google-cloud-platform)
+    - [Create Views](#create-views)
+    - [Map view to Dispathcher](#map-view-to-dispathcher)
+    - [Create functional Servlet](#create-functional-servlet)
+    - [Create DTO](#create-dto)
 - [References](#references)
 - [License & Copyright](#license--copyright)
 
@@ -66,6 +72,18 @@
 #### Some basic concepts in OAuth 2.0
 
 #### How it works?
+
+### Apply OAuth 2.0 in J2EE Application
+
+#### Prepare for project in Google Cloud Platform
+
+#### Create Views
+
+#### Map view to Dispathcher
+
+#### Create functional Servlet
+
+#### Create DTO
 
 ## References
 - [Hướng dẫn thực hiện chức năng login vào ứng dụng bằng tài khoản facebook](http://www.kieutrongkhanh.net/2016/08/huong-dan-thuc-hien-chuc-nang-login-vao.html)
