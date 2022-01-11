@@ -37,7 +37,6 @@ public class LoginGoogleServlet extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
 
         String code = request.getParameter("code");
-        System.out.println("Code: " + code);
         String url = LOGIN_PAGE;
 
         try {
