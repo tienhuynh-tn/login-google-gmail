@@ -8,7 +8,7 @@
   - Useful resources for using libraries
   - Read more
 - [How Can Get Started](#how-can-get-started)
-- [Reference](#reference)
+- [References](#references)
 - [License & Copyright](#license--copyright)
 
 ## Description
@@ -34,14 +34,15 @@
 ### Useful resources for using libraries
 
 ### Read more
-- []()
+- [Using OAuth 2.0 to Access Google APIs](https://developers.google.com/identity/protocols/oauth2)
+- [OpenID Connect](https://developers.google.com/identity/protocols/oauth2/openid-connect)
+- Other useful resources, please check [References](#references)
 
 ## How Can Get Started
 
-## Reference
+## References
 - [Hướng dẫn thực hiện chức năng login vào ứng dụng bằng tài khoản facebook](http://www.kieutrongkhanh.net/2016/08/huong-dan-thuc-hien-chuc-nang-login-vao.html)
 - [Code ví dụ JSP Servlet login bằng Google (Gmail/Google+)](https://stackjava.com/jsp-servlet/code-vi-du-jsp-servlet-login-bang-google-java-web.html)
-- [OpenID Connect](https://developers.google.com/identity/protocols/oauth2/openid-connect)
 - [Java + JSP: Login Google](https://youtu.be/bCkGaym6SSQ)
 - [Integrate login with google in Websites with JAVA](https://chillyfacts.com/integrate-login-with-google-in-websites-with-java/)
 - [OAuth2 là gì ? Nó được hoạt động như thế nào?](https://hocspringboot.net/2020/11/30/oauth2-la-gi-no-duoc-hoat-dong-nhu-the-nao/)
