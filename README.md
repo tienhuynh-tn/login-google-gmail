@@ -8,6 +8,10 @@
   - [Useful resources for using libraries](#useful-resources-for-using-libraries)
   - [Read more](#read-more)
 - [How Can Get Started](#how-can-get-started)
+  - [OAuth 2.0 Concepts]()
+    - [What is OAuth 2.0?]()
+    - [Some basic concepts in OAuth 2.0]()
+    - [How it works?]()
 - [References](#references)
 - [License & Copyright](#license--copyright)
 
@@ -54,6 +58,14 @@
 - Other useful resources, please check out 👉 [References](#references)
 
 ## How Can Get Started
+
+### OAuth 2.0 Concepts
+
+#### What is OAuth 2.0?
+
+#### Some basic concepts in OAuth 2.0
+
+#### How it works?
 
 ## References
 - [Hướng dẫn thực hiện chức năng login vào ứng dụng bằng tài khoản facebook](http://www.kieutrongkhanh.net/2016/08/huong-dan-thuc-hien-chuc-nang-login-vao.html)
