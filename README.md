@@ -27,9 +27,9 @@
 - Demo and Explain How To Login with Gmail of Google in Java Web Application.
 
 ## Some preview images
-![](./imgs/home.png) ![](./imgs/welcome.png)
+![Home](./imgs/home.png) ![Welcome](./imgs/welcome.png)
 
-![](./imgs/google-popup.png) 
+![Google Popup](./imgs/google-popup.png) 
 
 ## Basic Knowledge Required
 - Concept of OOP in Java
