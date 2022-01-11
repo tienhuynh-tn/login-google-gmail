@@ -2,6 +2,8 @@
 
 ## Table of Contents
 - [Description](#description)
+- [Some preview images](#some-preview-images)
+- [Basic Knowledge Required](#basic-knowledge-required)
 - [Technologies](#technologies)
 - [Useful Resources](#useful-resources)
   - [Useful resources of the project](#useful-resources-of-the-project)
@@ -23,6 +25,11 @@
 
 ## Description
 - Demo and Explain How To Login with Gmail of Google in Java Web Application.
+
+## Some preview images
+![](./imgs/home.png) ![](./imgs/welcome.png)
+
+![](./imgs/google-popup.png) 
 
 ## Basic Knowledge Required
 - Concept of OOP in Java
