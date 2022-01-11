@@ -1,16 +1,19 @@
 # LOGIN GMAIL GOOGLE IN JAVA WEB
 
-# Description
+##
 
-# Technology
+## Description
+- Demo and Explain How To Login with Gmail of Google in Java Web Application.
 
-# Useful Resources
+## Technology
 
-# How Can Get Started
+## Useful Resources
 
-# Reference
+## How Can Get Started
 
-# License & Copyright
+## Reference
+
+## License & Copyright
 &copy; 2022 Tien Huynh tienhuynh-tn Licensed under the [MIT LICENSE](https://github.com/tienhuynh-tn/login-google-gmail/blob/main/LICENSE).
 
 > :love_you_gesture: Feel free to use my repository and star it if you find something interesting :love_you_gesture:
