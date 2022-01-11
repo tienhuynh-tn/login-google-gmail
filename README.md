@@ -39,6 +39,15 @@
 
 ### Useful resources for using libraries
 
+#| Library Name | Description | Reference
+-| ------------ | ----------- | ---------
+1| [lib](https://github.com/tienhuynh-tn/login-google-gmail/tree/main/lib) | Project Library Folder | -
+2| commons-logging-1.2.jar | - | [Download Apache Commons Logging](https://commons.apache.org/proper/commons-logging/download_logging.cgi)
+3| fluent-hc-4.5.5.jar | - | [Apache HttpComponents](https://hc.apache.org/index.html)
+4| gson-2.8.2.jar | - | [gson](https://github.com/google/gson)
+5| httpclient-4.5.5.jar | - | [Apache HttpComponents](https://hc.apache.org/index.html)
+6| httpcore-4.5..jar | - | [Apache HttpComponents](https://hc.apache.org/index.html)
+
 ### Read more
 - [Using OAuth 2.0 to Access Google APIs](https://developers.google.com/identity/protocols/oauth2)
 - [OpenID Connect](https://developers.google.com/identity/protocols/oauth2/openid-connect)
