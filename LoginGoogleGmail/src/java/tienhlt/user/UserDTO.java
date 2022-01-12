@@ -3,23 +3,23 @@
  * All rights reserved!
  * For more information, please contact via my email: tien.huynhlt.tn@gmail.com
  */
-package tienhlt.userDTO;
+package tienhlt.user;
 
 /**
  *
  * @author Tien Huynh - Tien Huynh TN - Huynh Le Thuy Tien
  */
-public class User {
+public class UserDTO {
 
     private String sub;    //user-gmail-ID
     private String email;
     private String name;
     private String picture;
 
-    public User() {
+    public UserDTO() {
     }
 
-    public User(String sub, String email, String name, String picture) {
+    public UserDTO(String sub, String email, String name, String picture) {
         this.sub = sub;
         this.email = email;
         this.name = name;

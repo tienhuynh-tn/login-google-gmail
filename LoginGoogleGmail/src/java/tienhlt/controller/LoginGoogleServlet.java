@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import tienhlt.google.GoogleHelper;
-import tienhlt.userDTO.User;
+import tienhlt.user.UserDTO;
 
 /**
  *
@@ -44,7 +44,7 @@ public class LoginGoogleServlet extends HttpServlet {
             } else {
                 GoogleHelper googleHelper = new GoogleHelper();
                 String accessToken = googleHelper.getToken(code);
-                User user = googleHelper.getUserInfo(accessToken);
+                UserDTO user = googleHelper.getUserInfo(accessToken);
                 url = WELCOME_PAGE;
 
                 request.setAttribute("id", user.getSub());

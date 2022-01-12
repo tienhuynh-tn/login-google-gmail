@@ -11,7 +11,7 @@ import java.io.IOException;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.fluent.Form;
 import org.apache.http.client.fluent.Request;
-import tienhlt.userDTO.User;
+import tienhlt.user.UserDTO;
 import tienhlt.utils.MyApplicationConstant;
 
 /**
@@ -34,10 +34,10 @@ public class GoogleHelper {
         return accessToken;
     }
 
-    public User getUserInfo(final String accessToken) throws ClientProtocolException, IOException {
+    public UserDTO getUserInfo(final String accessToken) throws ClientProtocolException, IOException {
         String link = MyApplicationConstant.LoginGmailFeatures.GOOGLE_LINK_GET_USER_INFO + accessToken;
         String response = Request.Get(link).execute().returnContent().asString();
-        User user = new Gson().fromJson(response, User.class);
+        UserDTO user = new Gson().fromJson(response, UserDTO.class);
 
         return user;
     }
