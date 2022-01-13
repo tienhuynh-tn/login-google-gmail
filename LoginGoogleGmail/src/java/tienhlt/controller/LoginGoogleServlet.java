@@ -11,6 +11,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import tienhlt.google.GoogleHelper;
 import tienhlt.user.UserDTO;
 
@@ -42,19 +43,20 @@ public class LoginGoogleServlet extends HttpServlet {
         try {
             if (code == null || code.isEmpty()) {
             } else {
+                HttpSession session = request.getSession();
+                
                 GoogleHelper googleHelper = new GoogleHelper();
                 String accessToken = googleHelper.getToken(code);
                 UserDTO user = googleHelper.getUserInfo(accessToken);
                 url = WELCOME_PAGE;
 
-                request.setAttribute("id", user.getSub());
-                request.setAttribute("email", user.getEmail());
-                request.setAttribute("name", user.getName());
-                request.setAttribute("picture", user.getPicture());
+                session.setAttribute("id", user.getSub());
+                session.setAttribute("email", user.getEmail());
+                session.setAttribute("name", user.getName());
+                session.setAttribute("picture", user.getPicture());
             }
         } finally {
-            RequestDispatcher rd = request.getRequestDispatcher(url);
-            rd.forward(request, response);
+            response.sendRedirect(url);
         }
 
     }

@@ -16,10 +16,10 @@
 
         <h2>User Information</h2>
         <div>
-            <img src="${requestScope.picture}" alt="Avatar"> <br/>
-            Name: ${requestScope.name} <br/>
-            ID:  ${requestScope.id} <br/>
-            Email: ${requestScope.email}
+            <img src="${sessionScope.picture}" alt="Avatar"> <br/>
+            Name: ${sessionScope.name} <br/>
+            ID:  ${sessionScope.id} <br/>
+            Email: ${sessionScope.email}
         </div>
     </body>
 </html>
